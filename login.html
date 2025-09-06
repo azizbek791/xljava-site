@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XL✵JAVA Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header / Navbar -->
+    <header class="site-header">
+        <div class="logo">XL✵JAVA</div>
+
+        <nav class="nav-menu">
+            <a href="#hero">Bosh sahifa</a>
+            <a href="#services">Xizmatlar</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Kontakt</a>
+        </nav>
+
+        <!-- Music Player -->
+        <div id="music-player">
+            <button id="music-toggle">▶️</button>
+        </div>
+
+        <!-- Audio element tashqi -->
+        <audio id="background-music" loop>
+            <source src="./ILLENIUM - Good Things Fall Apart Ft. Jon Bellion - Oxigen Remix_(muzbomb.net).mp3"
+                type="audio/mpeg">
+            Sizning brauzeringiz audio elementini qo‘llab-quvvatlamaydi.
+        </audio>
+    </header>
+
+    <script src="main.js"></script>
+    <div class="login-background">
+        <div class="login-container">
+            <h2>Saytga kirish</h2>
+
+            <!-- Foydalanuvchi login -->
+            <input type="text" id="user-login" placeholder="Foydalanuvchi login">
+            <input type="password" id="user-password" placeholder="Foydalanuvchi parol">
+            <button id="user-login-btn">Kirish</button>
+
+            <hr>
+
+            <!-- Admin parol -->
+            <input type="password" id="admin-password" placeholder="Admin parol">
+            <button id="admin-login-btn">Admin Kirish</button>
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+
+</html>

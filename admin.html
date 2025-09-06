@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XL✵JAVA Admin Panel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header / Navbar -->
+    <header class="site-header">
+        <div class="logo">XL✵JAVA</div>
+
+        <nav class="nav-menu">
+            <a href="#hero">Bosh sahifa</a>
+            <a href="#services">Xizmatlar</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Kontakt</a>
+        </nav>
+
+        <!-- Music Player -->
+        <div id="music-player">
+            <button id="music-toggle">▶️</button>
+        </div>
+
+        <!-- Audio element tashqi -->
+        <audio id="background-music" loop>
+            <source src="./ILLENIUM - Good Things Fall Apart Ft. Jon Bellion - Oxigen Remix_(muzbomb.net).mp3"
+                type="audio/mpeg">
+            Sizning brauzeringiz audio elementini qo‘llab-quvvatlamaydi.
+        </audio>
+    </header>
+
+    <script src="main.js"></script>
+
+    <!-- Dashboard Section -->
+    <section id="dashboard" class="admin-dashboard">
+        <h1>Admin Dashboard</h1>
+        <p>Bu yerda saytni boshqarishingiz mumkin.</p>
+
+        <!-- Stats -->
+        <div class="index-stats-section">
+            <div class="index-stat-card">
+                <h3>150+</h3>
+                <p>Mijozlar</p>
+            </div>
+            <div class="index-stat-card">
+                <h3>50+</h3>
+                <p>Xizmatlar</p>
+            </div>
+            <div class="index-stat-card">
+                <h3>200+</h3>
+                <p>Blog postlar</p>
+            </div>
+            <div class="index-stat-card">
+                <h3>500+</h3>
+                <p>Foydalanuvchi fikrlari</p>
+            </div>
+        </div>
+
+        <!-- Users Section -->
+        <section id="users" class="admin-users-section">
+            <h2>Foydalanuvchilar ro‘yxati</h2>
+            <table>
+                <tr>
+                    <th>ID</th>
+                    <th>Ism</th>
+                    <th>Email</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Ali</td>
+                    <td>ali@example.com</td>
+                    <td>Faol</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Malika</td>
+                    <td>malika@example.com</td>
+                    <td>Faol</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Nodir</td>
+                    <td>nodir@example.com</td>
+                    <td>Faol</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Jasur</td>
+                    <td>jasur@example.com</td>
+                    <td>Faol</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Feruza</td>
+                    <td>feruza@example.com</td>
+                    <td>Faol</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Services Management -->
+        <section id="services" class="admin-services-section">
+            <h2>Xizmatlar boshqaruvi</h2>
+            <ul>
+                <li>Xizmat 1 - <button>Edit</button> <button>Delete</button></li>
+                <li>Xizmat 2 - <button>Edit</button> <button>Delete</button></li>
+                <li>Xizmat 3 - <button>Edit</button> <button>Delete</button></li>
+                <li>Xizmat 4 - <button>Edit</button> <button>Delete</button></li>
+                <li>Xizmat 5 - <button>Edit</button> <button>Delete</button></li>
+                <li>Xizmat 6 - <button>Edit</button> <button>Delete</button></li>
+                <li>Xizmat 7 - <button>Edit</button> <button>Delete</button></li>
+                <li>Xizmat 8 - <button>Edit</button> <button>Delete</button></li>
+            </ul>
+        </section>
+
+        <!-- Settings Section -->
+        <section id="settings" class="admin-settings-section">
+            <h2>Sayt sozlamalari</h2>
+            <p>Bu yerda admin sayt sozlamalarini o‘zgartirishi mumkin.</p>
+            <form>
+                <label>Sayt nomi:</label>
+                <input type="text" value="XL✵JAVA">
+                <label>Rang sxemasi:</label>
+                <select>
+                    <option>Qizil-Qora</option>
+                    <option>Ko‘k-Oq</option>
+                    <option>Yashil-Sariq</option>
+                </select>
+                <button type="submit">Saqlash</button>
+            </form>
+        </section>
+    </section>
+
+    <!-- Footer -->
+    <footer class="index-footer">
+        <p>&copy; 2025 XL✵JAVA. Barcha huquqlar himoyalangan.</p>
+    </footer>
+</body>
+
+</html>
